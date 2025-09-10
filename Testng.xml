@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Testing_Suite" >
+
+	<test name="RegressionTest">
+
+		<parameter name="username" value="testing@gmail.com"></parameter>	
+		<parameter name="password" value="P234r43"></parameter>	
+		<classes>	
+					<class name="T1.C1"></class>
+				
+		           	<class name="T1.C2"></class>		
+		           			
+			</classes>			
+		
+	</test>	
+	
+</suite>

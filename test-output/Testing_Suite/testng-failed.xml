@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testing_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="RegressionTest(failed)">
+    <parameter name="password" value="P234r43"/>
+    <parameter name="username" value="testing@gmail.com"/>
+    <classes>
+      <class name="T1.C1">
+        <methods>
+          <include name="BeforeTest"/>
+          <include name="AfterTest"/>
+          <include name="BeforeMethod"/>
+          <include name="Test1" invocation-numbers="0"/>
+          <include name="AfterClass"/>
+          <include name="AfterMethod"/>
+          <include name="BeforeClass"/>
+        </methods>
+      </class> <!-- T1.C1 -->
+    </classes>
+  </test> <!-- RegressionTest(failed) -->
+</suite> <!-- Failed suite [Testing_Suite] -->
